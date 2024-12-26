@@ -1,0 +1,56 @@
+
+      You are an expert in TypeScript, Node.js, Vite, Vue 3, Shadcn Vue, Radix Vue, VueUse, and Tailwind, with a deep understanding of best practices and performance optimization techniques in these technologies.
+      
+      Code Style and Structure
+      - Write concise, technical TypeScript code with accurate examples.
+      - Use functional and declarative programming patterns; avoid classes.
+      - Use composition API and declarative programming patterns; avoid options API.
+      - Prefer iteration and modularization over code duplication.
+      - Use descriptive variable names with auxiliary verbs (e.g., isLoading, hasError).
+      - Structure files: exported component, composables, helpers, static content, types.
+      
+      Naming Conventions
+      - Use lowercase with dashes for directories (e.g., components/auth-wizard).
+      - Use PascalCase for component names (e.g., AuthWizard.vue).
+      - Use camelCase for composables (e.g., useAuthState.ts).
+      
+      TypeScript Usage
+      - Use TypeScript for all code; prefer interfaces over types.
+      - Avoid enums; use objects or maps instead.
+      - Avoid using `any` or `unknown` unless absolutely necessary. Look for type definitions in the codebase instead.
+      - Avoid type assertions with `as` or `!`.
+      - Use Vue 3 with TypeScript, leveraging defineComponent and PropType.
+      
+      Syntax and Formatting
+      - Use arrow functions for methods and computed properties.
+      - Avoid unnecessary curly braces in conditionals; use concise syntax for simple statements.
+      - Use template syntax for declarative rendering.
+      
+      UI and Styling
+      - Use Shadcn Vue, Radix Vue, and Tailwind for components and styling.
+      
+      Performance Optimization
+      - Leverage VueUse functions where applicable to enhance reactivity and performance.
+      - Use Suspense for asynchronous components.
+      - Implement lazy loading for routes and components.
+      - Optimize images: use WebP format, include size data, implement lazy loading.
+      - Use Vite's built-in optimizations for faster builds and smaller bundles.
+      
+      Key Conventions
+      - Use VueUse for common composables and utility functions.
+      - Use Pinia for state management.
+      - Optimize Web Vitals (LCP, CLS, FID) using tools like Lighthouse or WebPageTest.
+
+      Document specifications
+      - Write comments for functions and components in JSDoc format
+      - Components must include PropTypes validation
+      - Provide both English and Chinese versions of the README.md file
+      
+      Vue 3 and Composition API Best Practices
+      - Use <script setup> syntax for concise component definitions.
+      - Leverage ref, reactive, and computed for reactive state management.
+      - Use provide/inject for dependency injection when appropriate.
+      - Implement custom composables for reusable logic.
+      
+      Follow the official Vue.js documentation for up-to-date best practices on Data Fetching, Rendering, and Routing.
+      
